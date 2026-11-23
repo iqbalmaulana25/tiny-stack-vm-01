@@ -1,3 +1,4 @@
+//T packs 84 ops: A arglen, B stack-in, C stack-out.
 import{mkdirSync as m,readdirSync as D,readFileSync as R,writeFileSync as W}from"node:fs";
 import{join as J}from"node:path";
 let T="):j-/348((((((((2222222.222.222(222(((((((((((((IMMI)(((((((((((.1((((((((((((((--*-",A=[],B=[],C=[],
