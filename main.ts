@@ -32,7 +32,7 @@ case 16:case 17:case 18:case 19:case 20:case 21:case 22:case 24:case 25:case 26:
 if(o>18&&o<23&&!b)return F(4);
 S[--s-1]=P[o-16](a,b);break}
 case 48:case 49:case 50:{
-let r=((p[v-2]|p[v-1]<<8)<<16)>>16;
+let r=(p[v-2]|p[v-1]<<8)<<16>>16;
 if(o==48||(o==49)===(S[--s]==0))g=v+r;
 break}
 case 51:if(c>63)return F(7);K[c++]=v;g=p[v-2]|p[v-1]<<8;break;
